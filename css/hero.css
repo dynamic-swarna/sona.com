@@ -1,0 +1,63 @@
+*,body{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    display: flex;
+    background: url("../Asset/bg.jpg");
+    background-size: cover;
+}
+.left,.right{
+    width: 50%;
+}
+.right{
+    display: flex;
+    justify-content: right;
+    color: white;
+}
+.left{
+    display: flex;
+    justify-content: right;
+    color: white;
+}
+.intro-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+.hello{
+    border: 1px dashed white;
+    padding: 15px;
+    font-size: 23px;
+    color: white;
+    margin: 20px;
+}
+.name{
+    color: pink;
+    font-size: 34px;
+    padding: 20px;
+    letter-spacing: 2px;
+    font-family: cursive;
+}
+.designation{
+    color: white;
+    font-size: 45px;
+}
+.details{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.fire-me-btn{
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 10px 10px rgba(0,1,0,0.2);
+    color: white;
+    background-color: red;
+    font-size: 24px;
+    margin: 20px;
+}
